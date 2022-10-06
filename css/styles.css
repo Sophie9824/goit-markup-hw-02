@@ -1,10 +1,9 @@
-body {
-    font-family: 'Raleway', sans-serif;
+body {    
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: var(--main-text-color);
-    letter-spacing: 0.02em;
-    background-color: var(--background);
+    letter-spacing: 0.03em;
+    background-color:var(--background);
   
 
 }
@@ -14,25 +13,24 @@ body {
     --brand-color:#2196F3;
     --main-text-color:#212121;
     --another-text-color:#757575;
-    --background: #F5F5F5;
+    --background: #FFFFFF;
 
 }
-header {
-    background-color: #FFFFFF;
-}
+
 
 li {
     list-style-type: none;
 }
+
+
 
 .link-logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;    
-    letter-spacing: 1,2;
-    color: #000000;
+    line-height: 1.2;     
+    color: var(--main-text-color);
     text-decoration: none;
 }
 
@@ -42,7 +40,7 @@ li {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;    
-    letter-spacing: 1,2;
+    letter-spacing: 1.2;
     color: var(--brand-color);
     text-decoration: none;
 
@@ -50,17 +48,18 @@ li {
  
 .site-link {   
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     font-weight: 500;
     color: var(--main-text-color);
     text-decoration: none;
+    letter-spacing: 0.02em;
    }
 
    .link {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     color: var(--another-text-color);
     text-decoration: none;
    
@@ -78,33 +77,18 @@ li {
     
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--background);
     
 }
  .business-decisions {
     background-color: #2F303A;
  }
 
- button {
-    width: 216px;
-    height: 50px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: calc(30 / 16);
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    background-color: var(--brand-color);
-    color: #FFFFFF;
 
- }
 
  button:hover,
  button:focus {
@@ -115,42 +99,40 @@ li {
  .advant {
     visibility: hidden;
  }
- 
- .specialities {
-    background-color:  #F5F5F5;
- }
 
- .section-title {
+ .speciality-title {
+    font-weight: 700;    
+    line-height: 1.14;
+    text-transform: uppercase;
+
+ }
+ 
+ 
+
+ .big-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,6;
-    letter-spacing: 0.03em;
+    line-height: 1.6;    
     text-transform: uppercase;
-    color: #212121;
+    color: var(--main-text-color);
 
  }
 
  .text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px; 
-    letter-spacing: 0.03em;
-    color: #757575;
+    
+  
+    line-height: 1.2; 
+    color: var(--another-text-color);
     }
 
-.big-title {
-font-weight: 700;
+.section-title {
+
 font-size: 36px;
-line-height: 1,16;
+line-height: 1.16;
 text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-
 }
 
-.our-team {
-    background-color: #F5F4FA;
-}
+
 
 .employee {
     width: 270px;
@@ -164,7 +146,7 @@ color: #212121;
 .participant {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
     text-align: center;    
     color: #212121;
     }
@@ -172,7 +154,7 @@ color: #212121;
 .job-title {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,18; 
+    line-height: 1.18; 
     text-align: center;
     color:var(--another-text-color);
 }
@@ -181,7 +163,7 @@ color: #212121;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     color: var(--another-text-color);
     
 
@@ -193,20 +175,15 @@ footer {
 
 .adress {
     font-style: normal;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1,2;   
+    text-decoration: none;    
+    line-height: 1.2;   
     color: #FFFFFF;
 }
 
 .link-contact {
     text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1,7px;
-    letter-spacing: 0.03em;
+    font-style: normal;    
+    line-height: 1.7px;    
     color: rgba(255, 255, 255, 0.6);
     
 }
@@ -221,7 +198,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,2; 
+    line-height: 1.2; 
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
@@ -238,8 +215,7 @@ footer {
 
 
 .project-title {
-    font-style: normal;
-    font-weight: 700;
+   
     font-size: 18px;
     line-height: 2;    
     letter-spacing: 0.06em;
@@ -247,9 +223,9 @@ footer {
 }
 
 .project-name {
-    font-weight: 400;
+   
     font-size: 16px;
-    line-height: 1,8;
+    line-height: 1.88;
     color: var(--another-text-color);
 }
 
