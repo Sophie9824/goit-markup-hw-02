@@ -46,9 +46,7 @@ li {
 
 }
 
- .accent {
-    color: var(--brand-color);
- }
+ 
  
 .site-link {   
     
@@ -75,6 +73,10 @@ li {
 .site-link:focus, .link:focus {
     color: var(--brand-color);
 }
+
+.accent {
+    color: var(--brand-color);
+ }
 
 .decisions {
     
