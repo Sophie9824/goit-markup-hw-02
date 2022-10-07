@@ -45,9 +45,13 @@ li {
     text-decoration: none;
 
 }
+
+ .accent {
+    color: var(--brand-color);
+ }
  
 .site-link {   
-    font-size: 14px;
+    
     line-height: 1.14;
     font-weight: 500;
     color: var(--main-text-color);
@@ -56,9 +60,8 @@ li {
    }
 
    .link {
-    font-style: normal;
+   
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     color: var(--another-text-color);
     text-decoration: none;
@@ -101,7 +104,7 @@ li {
  }
 
  .speciality-title {
-    font-weight: 700;    
+    font-size: 14px;    
     line-height: 1.14;
     text-transform: uppercase;
 
@@ -121,7 +124,7 @@ li {
  .text {
     
   
-    line-height: 1.2; 
+    line-height: 1.71; 
     color: var(--another-text-color);
     }
 
@@ -148,11 +151,11 @@ text-align: center;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;    
-    color: #212121;
+    
     }
 
 .job-title {
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.18; 
     text-align: center;
@@ -177,13 +180,13 @@ footer {
     font-style: normal;
     text-decoration: none;    
     line-height: 1.2;   
-    color: #FFFFFF;
+    color: var(--background);
 }
 
 .link-contact {
     text-decoration: none;
     font-style: normal;    
-    line-height: 1.7px;    
+    line-height: 1.71;    
     color: rgba(255, 255, 255, 0.6);
     
 }
